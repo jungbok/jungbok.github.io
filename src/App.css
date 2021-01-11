@@ -1,7 +1,59 @@
 .App {
   text-align: center;
 }
+body{
+  font-family: 'nanumsquare';
+}
+.black-nav{
+  background: black;
+  width: 100%;
+  display: flex;
+  color: white;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 20px;
+}
 
+.tab {
+  overflow: hidden;
+  border: 1px solid sandybrown;
+  navbutton_background_color: gray;
+}
+
+.tab button{
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.2s;
+  font-size: 20px
+}
+
+.tab-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0
+}
+
+.tab-list-item{
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active{
+  background-color: gray;
+  border: solid #cccccc;
+  border-width: 1px 1px 0 1px;
+}
+.list {
+  margin-top: 20px;
+  text-align: left;
+  padding-left:20px;
+  padding-right: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
