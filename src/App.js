@@ -18,7 +18,6 @@ function App() {
         <Tabs>
             <h3> I am a... </h3>
           <div label="Developer">
-            {devInfo}
             <div className="list">
                 <h4> {title[0]} </h4>
                 <p>{post[0]} <span onClick={() => {viewP1Var(viewP1+1)}}> viewed </span>{viewP1} </p>
@@ -34,9 +33,11 @@ function App() {
                   <p>{post[2]}</p>
                   <hr/>
               </div>
+             <Modal />
           </div>
           <div label="Traveler">
             {travInfo}
+            <WorldMap />
           </div>
           <div label ="Dreamer">
             {dreamInfo}
@@ -46,6 +47,23 @@ function App() {
           </footer>
       </div>
   );
+}
+function Modal(){
+    return (
+        <div className="modal">
+            <h2> Title </h2>
+            <p> dates </p>
+            <p> descriptions </p>
+        </div>
+    )
+}
+
+function WorldMap(){
+    return(
+        <div className="worldMap">
+
+        </div>
+    )
 }
 
 export default App;

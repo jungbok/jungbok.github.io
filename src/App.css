@@ -13,10 +13,14 @@ body{
   font-weight: 600;
   font-size: 20px;
 }
+.tabs{
+  width: 100%;
+}
 
 .tab {
   overflow: hidden;
-  border: 1px solid sandybrown;
+  fort-size: 14px;
+  border: 2px solid sandybrown;
   navbutton_background_color: gray;
 }
 
@@ -33,7 +37,7 @@ body{
 
 .tab-list {
   border-bottom: 1px solid #ccc;
-  padding-left: 0
+  padding-left: 0px;
 }
 
 .tab-list-item{
@@ -48,11 +52,19 @@ body{
   border: solid #cccccc;
   border-width: 1px 1px 0 1px;
 }
+
 .list {
   margin-top: 20px;
   text-align: left;
   padding-left:20px;
   padding-right: 20px;
+}
+
+.modal{
+  margin-top: 20px;
+  padding: 20px;
+  background: #fee
+
 }
 .App-logo {
   height: 40vmin;
