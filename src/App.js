@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import './App.css';
 import Tabs from './components/Tabs'
+import Map from './Worldmap'
 
 function App() {
 
@@ -37,7 +38,7 @@ function App() {
           </div>
           <div label="Traveler">
             {travInfo}
-            <WorldMap />
+            <Map />
           </div>
           <div label ="Dreamer">
             {dreamInfo}

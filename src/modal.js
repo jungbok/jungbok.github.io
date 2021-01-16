@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 
-class modal extends Component{
+class Modal extends Component{
     static propTypes = {
         label: PropTypes.string.isRequired,
         onClick: PropTypes.func.isRequired,
